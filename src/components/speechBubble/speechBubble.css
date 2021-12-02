@@ -1,0 +1,33 @@
+
+  .box {
+    width: 300px;
+    height: 100px;
+    margin-left: 700px;
+    background: #ffe1e1;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    font-family: monospace;
+  }
+
+  
+  .sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #ffe1e1;
+    border-top: 10px solid #ffe1e1;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 20px;
+  }
+  
+ 
+  
+ 
